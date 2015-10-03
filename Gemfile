@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '4.2.2'
+gem 'rails'
 gem 'sass-rails',   '5.0.2'
 gem 'uglifier',     '2.5.3'
-gem 'coffee-rails', '4.1.0'
+gem 'coffee-rails'
 gem 'jquery-rails', '4.0.3'
 gem 'turbolinks',   '2.3.0'
 gem 'jbuilder',     '2.2.3'
@@ -17,12 +17,12 @@ group :development, :test do
 end
 
 group :test do
-  gem 'minitest-reporters'
-  gem 'mini_backtrace'
-  gem 'guard-minitest'
+  gem 'minitest-reporters', '1.0.5'
+  gem 'mini_backtrace',     '0.1.3'
+  gem 'guard-minitest',     '2.3.1'
 end
 
 group :production do
-  gem 'pg'  
-  gem 'rails_12factor'
+  gem 'pg'
+  gem 'rails_12factor', '0.0.2'
 end
