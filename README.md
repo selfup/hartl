@@ -5,4 +5,4 @@ This is the sample application for the
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
-###
+## Heroku App is hosted on this domain: https://stormy-stream-1028.herokuapp.com
