@@ -26,6 +26,15 @@ class UsersController < ApplicationController
     end
   end
 
+  def update
+    @user = find_params
+    if @user.update_attributes(user_params)
+      # something
+    else
+      render 'edit'
+    end
+  end
+
   private
 
   def user_params
